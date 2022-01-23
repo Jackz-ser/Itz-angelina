@@ -131,13 +131,13 @@ if (config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
-        if (message.jid === '15369524516-1612300121@g.us') {
+        if (message.jid === '917994765065-1612300121@g.us') {
 
             return;
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Owned by Farhan_Dqz*' , MessageType.text, { quoted: message.data });
+            await message.client.sendMessage(message.jid,'*Owned by Jackz-ser*' , MessageType.text, { quoted: message.data });
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text, { quoted: message.data });
@@ -276,13 +276,13 @@ else if (config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
-        if (message.jid === '15369524516-1612300121@g.us') {
+        if (message.jid === '917994765065-1612300121@g.us') {
 
             return;
         }
 
         if (Config.OWNER == 'default') {
-            await message.client.sendMessage(message.jid,'*Owned by Farhan_Dqz*' , MessageType.text, { quoted: message.data });
+            await message.client.sendMessage(message.jid,'*Owned by Jackz-ser*' , MessageType.text, { quoted: message.data });
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text, { quoted: message.data });
