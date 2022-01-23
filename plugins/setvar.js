@@ -16,7 +16,7 @@ Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (mess
 
     
 
-    r_text[0] = "https://i.imgur.com/rlpkX3j.jpeg";
+    r_text[0] = "https://i.imgur.com/SyYph8J.jpeg";
 
     
 
@@ -28,7 +28,7 @@ Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (mess
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━💘SETVAR💘━━⛦
 
-𝐇𝐞𝐥𝐥𝐨 🦋 𝐈 𝐚𝐦 𝐚 Lizamwol 𝐛𝐨𝐭.
+𝐇𝐞𝐥𝐥𝐨 🦋 𝐈 𝐚𝐦 𝐚 Angelina 𝐛𝐨𝐭.
 
   
 
@@ -118,7 +118,7 @@ All setvars are
 
  .setvar THERI_LIST:badword,badword
 
- To change AMALSER bot name
+ To change JACKSER bot name
 
  .setvar BOT_NAME:your bot name
 
@@ -126,15 +126,15 @@ All setvars are
 
  .setvar TAG_REPPLY:your jid 
 
-     *happy using Lizamwol bot 🧚‍♂️*
+     *happy using Angelina bot 🧚‍♂️*
 
-*Editing And Devaloper : Nithin-Fayas*
+*Editing And Devaloper : Jackz-broken*
 
-*Erorr Fixing : Fayas Ser💘*
+*Erorr Fixing : Jackz ser💘*
 
-*Supporting : Black mods*
+*Supporting : Anjali v2*
 
-*User Support : Nithin*
+*User Support : Broken ser*
 
       ═════💢💢═════
 
