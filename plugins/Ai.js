@@ -244,10 +244,10 @@ if (conf.LANG == 'TR') {
 }
 if (conf.LANG == 'EN') {
     fulleva_dsc = 'Activates full functional Liza Mwolfeatures. Turn your account into a ai chatbot!'
-    already_on = 'Liza Mwol artificial intelligence is already fully functional.'
-    already_off = 'Liza Mwol artificial intelligence is currently running semi-functional.'
-    succ_on = 'Liza Mwol Opened Fully Functionally! Please wait a bit! ✅'
-    succ_off = 'Liza Mwol Set to Semi-Functional! Please wait a bit! ☑️'
+    already_on = 'Angelina artificial intelligence is already fully functional.'
+    already_off = 'Angelina artificial intelligence is currently running semi-functional.'
+    succ_on = 'Angelima Opened Fully Functionally! Please wait a bit! ✅'
+    succ_off = 'Angelina Mwol Set to Semi-Functional! Please wait a bit! ☑️'
 }
 if (conf.LANG == 'ML') {
     fulleva_dsc = 'പൂർണ്ണമായും പ്രവർത്തനക്ഷമമായ Zara സവിശേഷതകൾ സജീവമാക്കുന്നു. നിങ്ങളുടെ അക്കൗണ്ട് ഒരു ചാറ്റ്ബോട്ടാക്കി മാറ്റുക!'
