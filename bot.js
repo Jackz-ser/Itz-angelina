@@ -11,7 +11,7 @@ const chalk = require('chalk');
 const config = require('./config');
 const simpleGit = require('simple-git');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./julie/');
+const {Message, StringSession, Image, Video} = require('./angelina/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const git = simpleGit();
@@ -137,7 +137,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Liza Mwol working!')
+            chalk.green.bold('✅ Angelina working!')
         );
         await conn.sendMessage(
             conn.user.jid,
@@ -158,10 +158,10 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 );
                 await conn.sendMessage(
                     conn.user.jid,
-                    '```type``` *.update now* ```to update```\n\n' + julieupdate + '```', MessageType.text
+                    '```type``` *.update now* ```to update```\n\n' + angelinaupdate + '```', MessageType.text
                 ); 
             } 
-      }
+      
         });
 
     conn.on('chat-update', async m => {
@@ -203,7 +203,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
   return;
   }
 
-      //edited chunkinde padayali  
+      //edited jackz ser 
 
      if (msg.messageStubType === 32 || msg.messageStubType === 28) {
         var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
@@ -238,7 +238,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 		
                    await conn.sendMessage(msg.key.remoteJid,gb.message.replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{time}', afn_plk_).replace('{owner}', conn.user.name).replace('{mention}', tag),MessageType.text,{ contextInfo: {mentionedJid: [msg.messageStubParameters[0]]}});
             }
-          }  //thanks to farhan      
+          }  //thanks to jackz      
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
         var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
@@ -369,7 +369,9 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                             if (config.NOLOG == 'off') {
                                 
                                 await conn.sendMessage(conn.user.jid, '*~_________~ 𝐋𝐈𝐙𝐀 𝐌𝐖𝐎𝐋࿐ ~______~*' +
-                                    '\n\n*👾 ' + error + '*\n\n```Report errors\njoin ⚠️Warning bot not allowed in the group\nchat.whatsapp.com/HrPTDEi6NPsJpgvMZHNBg7``` ' 
+                                    '\n\n*👾 ' + error + '*\n\n```Report errors\njoin ⚠️Warning bot not allowed in the group\nchat.whatsapp.com/DqtTdFz3yTvDNi1QihM0EP
+				
+					
                                     , MessageType.text);
                             }
                         }
