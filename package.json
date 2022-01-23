@@ -1,14 +1,14 @@
 {
-  "name": "JulieMwol",
-  "version": "7.3.6",
-  "description": "Julie Mwol is the Modified Version of WhatsAsena, Made By @farhan-dqz with Baileys.",
-  "main": "./Julie-Mwol/bot.js",
+  "name": "Angelina",
+  "version": "1.0.0",
+  "description": "angelina is the Modified Version of WhatsAsena, Made By @jack ser with Baileys.",
+  "main": "./Jackz-ser/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/farhan-dqz/Julie-Mwol.git"
+    "url": "git+https://github.com/Jackz-ser/Itz-angelina.git"
   },
   "keywords": [
     "whatsapp",
@@ -17,13 +17,13 @@
     "asena",
     "WhatsAsena"
   ],
-  "author": "farhan-dqz",
-  "developer": "@TOXIC-DEVIL / @farhan-dqz",
+  "author": "Jackz-ser",
+  "developer": "@Jackz-ser / @BRKNOFC",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/farhan-dqz/Julie-Mwol/issues"
+    "url": "https://github.com/Jackz-ser/Itz-angelina/issues"
   },
-  "homepage": "https://github.com/farhan-dqz/Julie-Mwol#readme",
+  "homepage": "https://github.com/Jackz-ser/Itz-angelina#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.3",
     "@lh2020/speedtest-net": "^2.1.1",
